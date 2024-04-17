@@ -1,9 +1,15 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources>
+
     <!-- Base application theme. -->
-    <style name="Base.Theme.LocalImage" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/maroon</item>
+        <item name="colorPrimaryDark">@color/maroon</item>
+        <item name="colorAccent">#F44336</item>
     </style>
 
-    <style name="Theme.LocalImage" parent="Base.Theme.LocalImage" />
+    <style name="OutlinedBoxStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <!-- Customize other attributes as needed -->
+        <item name="boxStrokeColor">#BC8282</item>
+    </style>
 </resources>
